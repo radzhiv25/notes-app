@@ -22,10 +22,11 @@ export const Login = () => {
     setError("");
   };
   return (
-    <div className="md:w-1/4 w-3/4 mx-auto">
+    <div className="md:w-1/4 mt-10 mx-auto border rounded-md py-2 px-4">
+      <h2 className="text-3xl font-semibold mb-2 border-b py-2">Login</h2>
       <form
         onSubmit={handleLogin}
-        className="p-4 border rounded-md mt-10 space-y-3"
+        className="space-y-3"
       >
         <div className="flex flex-col space-y-2">
           <label htmlFor="email">Enter email</label>
