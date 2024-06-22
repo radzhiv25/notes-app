@@ -6,14 +6,14 @@ import { Signup } from "./pages/Signup";
 
 function App() {
   return (
-    <>
+    <div className="md:mx-10 mx-5">
       <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
